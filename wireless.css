@@ -1,0 +1,161 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: none;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+}
+
+/* Style the header */
+nav {
+    background-color: #333;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+	color: white;
+	font-size: 50px;
+	font-family: FF Avance;
+	line-height: 80px;
+	padding: 0 100px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+a.active,a:hover{
+	background: #242526;
+	transition: .5s;
+}
+
+
+    
+/* Style the product section */
+
+.product-image{
+	width: 100%;
+	height: auto;
+}
+
+.product-image img {
+	padding: 10px 10px;
+	width: 1495px;
+	height: 650px;
+	opacity: .65;
+	
+}
+
+.product-image .texting{
+	position: absolute;
+	color: white;
+	left: 50%;
+	top: 50%;
+	font-size: 60px;
+	transform: translate(-50%, -50%);
+	font-family: Arial;
+}
+
+.product-details {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.product-details h2 {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+.product-details ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.product-details li{
+    text-align: center;
+    float: left;
+    top: 800px;
+    left: 100px;
+    border-box: none 0px;
+    margin-left: 170px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+/* Style the "Buy Now" section */
+#buy-now {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#buy-now h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#buy-now button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#buy-now button:hover {
+    background-color: black;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.pp {
+    display:flex;
+    float: left;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.kk{
+    margin-top: 50px;
+}
+
+.ll{
+   
+    margin-top: 350px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
